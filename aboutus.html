@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="refresh" content="200">
+    <meta name="Author" content="Victor Nkuna">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" type="text/css" rel="Cascading stylesheet">
+    <link href="style-linked-main-page.css" type="text/javascript" rel="JavaScript">
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+
+    <title>welcome to vintech (pty) ltd's About us page: </title>
+    <style>
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+  
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+ box-shadow: 
+0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+
+    
+padding: 2px 16px;
+} 
+        /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+    </style>
+</head>
+<body style="background-color: dodgerblue;">
+
+    <div class="about-section" style="text-align: center; background-color: aqua;">
+        <h5>About the company:Vintech (Pty) Ltd </h5>
+        <p>Who are?,well you've come at the right place, vintech (pty) Ltd is platform based company,which offer
+         variety of computing services,ranging from products that we sell  to our diverse consumers,on our e-commerce platform called the <em style="font:bold;">e-store</em><a  style="text-decoration: none; background-color: lightseagreen;" class="remove-line" href="productCard.html">naviagate to e-store</a> </p><br />
+
+
+    </div>
+    <h2 style="text-align: center;">Our Team</h2>
+    <div class ="row" style="text-align: center;">
+        <div class="column" style="text-align: center;">
+            <div class="card" style="text-align: center;">
+                <div class="flip-card" style="text-align: center;">
+                    <div class="flip-card-inner" style="text-align: center;">
+                      <div class="flip-card-front" style="text-align: center;">
+                        <img src="ceo.jpg" alt="Avatar" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back" style="text-align: center;" > 
+                        <h1>Victor Nkuna</h1>
+                        <p>Architect & Engineer</p>
+                        <p>We at Vintech  we call  our CTO the Benovelent dictator for life,We love this guy</p>
+                      </div>
+                    </div>
+                  </div>
+                <!-- <img src="C:\Users\user\freecodecamp\website\images\ceo.jpg"
+                   alt="Victor" style="width:auto"> -->
+                   <div class="container" style="text-align: center;background-color: cadetblue+;">
+                       <h2>Victor Nkuna</h2>
+                       <p class="title">Chief Technology Officer</p>
+                       <p>The co-founder of vintech (pty) ltd</p>
+                       <p>victor.nkuna@yahoo.com</p><br />
+                       <p><button class="button" method="submits">Contact</button></p><br/>
+                   </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div>
+        <p style="text-align: center; color: aqua;">Here is a breakdown of Chief Technology office,one may he our team leader in our daily Scrum and/or Agile project planning meetings </p>
+        <br />
+        <br/>
+        <!-- My Skills section start -->
+
+
+
+    <div class="section" style="text-align: center; background-color: chartreuse;">
+        <h1><span>Skills</span></h1>
+        <ul>
+            <li>HTML <br />
+                <progress min="0" max="100" value="80"></progress>
+            </li>
+            <br />
+
+            <p>We have done thus introduction to HTML,Text formatting and Anchors and link</p><br />
+            <p>furthernore ,we have done,HTML,forms ,and how to deploy them on netlify<br /> and last but not least we have done inline and block elements to align our content of our web application<br /> </p>
+            <li>JavaScript <br />
+                <progress min="0" max="100" value="50"></progress>
+            </li>
+
+            <p>We are yet to delve deep Javascript to give our web applications dynamic behaviour,<br /> we will use React as front end framework,to make user compopnents,however since I was eager in understanding the ins and out of web development,i decided
+                on my won to personalluy learn Angular Framework,to see my Angular projects please visit these site:<a href="">Angular projects</a></p>
+            <li>Python <br />
+                <progress min="0" max="100" value="30"></progress>
+            </li>
+            <p>Welcome to the description of one's skillset as it relate to the programming language python,<br /> we used python for backend,and we used,Flasks as Fullstack framework,for our backend <br /> (i.e. database-i.e. fridge-it store our food we
+                serve to clients in our restaurant,<br /> using this analogy it simplies the process of retrieving data/resources from the applciaiton ,database to our view to the user<br /> for more inforamtion,please see my personal project that are
+                build using Flask and DJango,another fullsatck framework,which I learnt to sharpen one's understanding of being a full stack developer:<a href="">see Django and Flask project</a>
+
+            </p>
+        </ul>
+    </div>
+    <br />
+
+    <!-- My Skills section end -->
+
+    <!--media section start-->
+    <div class="section" style="text-align: center;color: crimson;">
+        <h1><span>My Media</span></h1>
+        <br />
+        <p>The following video,demonstrate the ins and out of full-stack python web development</p><br/>
+
+        <iframe height="150" width="300" src="C:\Users\user\freecodecamp\website\git website\html-css-endofmodule-project\videoplayback.mp4" allowfullscreen frameborder="0"></iframe>
+
+    </div>
+        
+    </div>
+
+
+
+
+    <div class="column" style="text-align: center; color: steelblue;">
+        <div class="card">
+            <img src="C:\Users\user\freecodecamp\website\images\fullstack skill set.jpg"
+             alt="Full stack skillset" style="width: auto;" />
+             <div class="container" style="text-align: center; background-color: aqua;">
+                 <h2 style="color:chartreuse;font-family: Arial, Helvetica, sans-serif;font-style: italic;font-size:mediums;">path towards a journey of a fullstack web developer</h2>
+                 <p class="title">FullStack Web Development</p>
+                 <p>A fullstack developer was popularized by facebook ,in 2014 when they said whey will only hire fullstack developer in their product Development Teams,<br />
+                    email: vintech(pty)ltd@yahoo.com</p><br />
+                    <br />
+                <!-- <form action="mailto:victor.nkuna@yahoo.com"><p><input type="submit" value="Submit">contact the company for more details</p></form> -->
+             </div>
+        </div>
+    </div>
+    <br />
+    <div style="text-align: center;background-color: darkmagenta;">
+         <div style="display: flexbox;">
+             <form>
+                 <h2 style="color: springgreen;font-family: Arial, Helvetica, sans-serif;font-style: italic;font-size:mediums;">leave us a comment:</h2>
+                 <p>Name:</p><input type="text" name="name" required/><br />
+                <p>Email:</p> <input type="email" name="Email" required/><br />
+                <p>Contact:</p><input type="number" id="quantity" name="Contact number:" min="0" > <br />
+                <p>Message:</p><input type="textarea" name="message" required /><br/>
+                <input type="submit" value="SEND" class="submit" /> <br />
+            </form><!--form section end here-->
+        </div>
+    </div>
+    
+</body>
+</html>
